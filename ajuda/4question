@@ -1,0 +1,10 @@
+chico = 1.5
+ze = 1.1
+tempo = 0
+
+while ze < chico:
+  chico += 0.02
+  ze += 0.03
+  tempo += 1
+
+print(f'Foram necessários {tempo} anos para Zé alcança Chico em altura')
